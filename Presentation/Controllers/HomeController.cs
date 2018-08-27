@@ -22,15 +22,15 @@ namespace Presentation.Controllers
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult Privacy()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Games()
         {
+            ViewData["Message"] = "All the available games.";
+
             return View();
         }
 
