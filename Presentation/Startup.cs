@@ -18,7 +18,7 @@ namespace Presentation
         {
             Configuration = configuration;
         }
-        //test
+        
 
         public IConfiguration Configuration { get; }
 
